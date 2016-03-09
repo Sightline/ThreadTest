@@ -8,7 +8,8 @@ int main(int argc, char *argv[])
     // Some comment
     // last comment
 
-    qDebug() << "Git is a pain in the arse";
+    qDebug() << "Git with Qt is a pain in the arse";
+    qDebug() << "multithreading forever";
 
     return a.exec();
 }
