@@ -1,4 +1,5 @@
 #include <QCoreApplication>
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
@@ -7,6 +8,7 @@ int main(int argc, char *argv[])
     // Some comment
     // last comment
 
+    qDebug() << "Git is a pain in the arse";
 
     return a.exec();
 }
